@@ -1,0 +1,13 @@
+# 编译产物：target 目录只保留打好的 jar 包
+target/*
+!target/*.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.class
+
+# 日志
+*.log
+logs/
